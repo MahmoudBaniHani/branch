@@ -1,6 +1,7 @@
 class Main
     def initialize
-            puts "mahmoud"
+        puts "mahmoud"
+        puts "banihani"
     end
     def print_name name
             puts "#{name}"
