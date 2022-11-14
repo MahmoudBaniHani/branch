@@ -7,6 +7,7 @@ class Employee
     end
     def print
         puts "Name is#{@name}" 
+    end
     def get_address
         @address    
     end
