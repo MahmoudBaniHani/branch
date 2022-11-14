@@ -1,5 +1,5 @@
 class Employee
-    attr_accessor :name ,:price
+    attr_accessor :name ,:price ,:address
     def initialize 
         puts "Employee class"
         @name = ""
@@ -7,6 +7,8 @@ class Employee
     end
     def print
         puts "Name is#{@name}" 
+    def get_address
+        @address    
     end
     def get_name
         @name
