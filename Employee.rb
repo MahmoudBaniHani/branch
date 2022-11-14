@@ -4,6 +4,9 @@ class Employee
         puts "Employee class"
         @name = ""
     end
+    def print
+        puts "Name is#{@name}" 
+    end
     def get_name
         @name
     end
