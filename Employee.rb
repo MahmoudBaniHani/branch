@@ -1,5 +1,5 @@
 class Employee
-    def mahmodu
+    def mahmoud
         puts "mahmoud" 
     end
 end
